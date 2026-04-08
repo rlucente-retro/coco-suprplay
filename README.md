@@ -20,7 +20,19 @@ The standard `PLAY` command in the CoCo's Extended BASIC is limited to simple 6-
 
 ### Tools
 *   **[waveform-explorer/](waveform-explorer/):** A modern Python-based tool to visualize and audition the waveforms defined in the BASIC program.
-    *   `suprplay_plot_waveforms.py`: Run this to see the mathematical waveforms plotted. You can click on a waveform to hear a sample of how it sounds on a modern system.
+
+#### Running the Waveform Explorer
+To run the explorer on a modern system (Windows, macOS, or Linux):
+1.  Ensure you have Python 3 installed.
+2.  Install the required dependencies:
+    ```bash
+    pip install -r waveform-explorer/requirements.txt
+    ```
+3.  Run the application:
+    ```bash
+    python waveform-explorer/suprplay_plot_waveforms.py
+    ```
+4.  **Usage:** The app will plot all mathematical waveforms from the original article. Click anywhere within a waveform's bounding box to hear a 2-second audio sample of that waveform at Middle C.
 
 ## Usage on a TRS-80 Color Computer
 To run this on an original CoCo or emulator:
